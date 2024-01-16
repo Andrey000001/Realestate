@@ -1,0 +1,15 @@
+.social {
+    position: fixed;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5625rem;
+    right: 1.25rem;
+    transform: translate(0rem,-50%);
+
+    @media (max-width: 991.98px) {
+        display: none;
+    }
+}

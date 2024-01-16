@@ -1,0 +1,28 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    .header__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 6.4375rem;
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+        column-gap: 0.625rem;
+        row-gap: 0.9375rem;
+    }
+    @media (max-width: 767.98px) {
+        .header__container {
+            flex-direction: column;
+            min-height: 0;
+        }
+    }
+    &__logo {
+        font-weight: 800;
+        font-size: 1.4375rem;
+        color: inherit;
+    }
+}

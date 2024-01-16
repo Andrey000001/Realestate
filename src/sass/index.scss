@@ -1,0 +1,25 @@
+// comon
+@import './base/reset';
+@import './base/repeat';
+@import './layout/container';
+@import './utils/variabls';
+
+
+//Header
+@import './components/header';
+
+//Main 
+@import './components/page';
+@import './components/page_how';
+@import './components/page_deals';
+@import './components/page__featured';
+@import './components/page__reviews';
+@import './components/page__subscribe';
+
+// Footer
+@import './components/footer';
+
+//Social
+@import './components/social';
+
+

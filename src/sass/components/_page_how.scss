@@ -1,0 +1,199 @@
+
+.how {
+    padding-top: 6.875rem;
+    padding-bottom: 6.875rem;
+
+    @media (max-width: 990.98px) {
+        .how {
+            padding-top: 4.375rem;
+            padding-bottom: 4.375rem;
+        }
+    }
+    @media (max-width: 767.98px) {
+        .how {
+            padding-top: 1.875rem;
+            padding-bottom: 1.875rem;
+        }
+    }
+
+    &__title {
+        margin-bottom: 4.375rem;
+    }
+}
+
+
+.how-items {
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(3, minmax(auto, 260px));
+    justify-content: space-between;
+    column-gap: 1.875rem;
+    row-gap: 2.5rem;
+
+    @media (min-width: 991px) {
+        .how-items {
+            padding-left: 2.1875rem;
+            padding-right: 2.1875rem;
+        }
+    }
+}
+
+
+.item-how {
+    position: relative;
+    display: grid;
+    text-align: center;
+    justify-items: center;
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5.625rem;
+        height: 5.625rem;
+        border-radius: 20%;
+        margin-bottom: 3.125rem;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 1.375rem;
+        line-height: 1.875rem;
+    
+        margin-bottom: 0.9375rem;
+    }
+    &__text {
+        font-size: 1rem;
+        line-height: 26px;
+    }
+    &:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 2.5625rem;
+        width: 210px;
+        height: 0.6875rem;
+        transform: translate(86.5%, 0px);
+        background: url("../img/main/howitwork/line709.svg") 0 0 / 100% no-repeat;
+    }
+    
+    &_2:not(:last-child)::after {
+        transform: translate(86.5%, 0px) rotate(-180deg);
+    }
+}
+
+.item-how_1 .item-how__icon {
+    background: rgba(150, 114, 255, 1);
+}
+.item-how_2 .item-how__icon {
+    background: rgba(77, 223, 253, 1);
+}
+.item-how_3 .item-how__icon {
+    background: rgba(242, 184, 236, 1);
+}
+
+
+@media (max-width: 1199.98px) {
+    //Body
+    .body-main-block__content {
+        margin-bottom: 1.25rem;
+    }
+    .body-main-block {
+        display: block;
+    }
+    //Form
+    .form-main-block {
+        margin-right: 0;
+    }  
+    //Menu
+    .menu__list {
+        justify-content: center;
+    }
+    .menu__link {
+        font-size: 1.125rem;
+    }
+    //Partners
+    .partners-main-block {
+        max-width: none;
+        position: relative;
+        z-index: 2;
+    }
+    //Main
+    .main-block__body {
+        margin-bottom: 2.5rem;
+    }
+    .main-block__container {
+        padding-bottom: 1.875rem;
+        padding-top: 6.25rem;
+    }
+    //Content
+    .content-main-block__body {
+        padding-right: 0px;
+    }
+    //Item
+    .item-how:not(:last-child)::after {
+        width: 10.625rem;
+        transform: translate(69.5%, 0px);
+    }
+    .item-how_2:not(:last-child)::after {
+        transform: translate(69.5%, 0px) rotate(-180deg);
+    }
+}
+
+@media (max-width: 990.98px) {
+    .main-block {
+        padding-bottom: 4.375rem;
+    }
+    .item-how:not(:last-child)::after {
+        width: 7.8125rem;
+        transform: translate(64%, 0px);
+    }
+    .item-how_2:not(:last-child)::after {
+        transform: translate(64%, 0px) rotate(-180deg);
+    }
+}
+
+@media (max-width: 767.98px) {
+    .main-block {
+        padding-bottom: 1.875rem;
+    }
+    .partners-main-block__items {
+        justify-content: center;
+    }
+    .content-main-block__title {
+        font-size: 1.875rem;
+        line-height: 120%;
+    }
+    //Form
+    .form-main-block {
+        display: block;
+    }
+    .form-main-block__button {
+        width: 100%;
+    }
+    //Item
+    .item-how:not(:last-child)::after {
+        display: none;
+    }
+    .item-how__icon {
+        margin-bottom: 1.25rem;
+    }
+    //How
+    .how-items {
+        grid-template-columns: 1fr;
+    }
+    .how__title {
+        margin-bottom: 1.875rem;
+    }
+   
+}
+
+@media (max-width: 479.98px) {
+    .form-main-block {
+        background: #ffff;
+    }
+    .form-main-block__input {
+        padding: 0px 0.9375rem;
+    }
+}
+
+
