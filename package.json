@@ -2,7 +2,7 @@
   "name": "realestate",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://andrey000001.github.io/realestate/",
+  "homepage": "https://andrey000001.github.io/realestate",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /realestate/"
