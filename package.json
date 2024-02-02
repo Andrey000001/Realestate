@@ -2,10 +2,10 @@
   "name": "realestate",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://andrey000001.github.io/realestate",
+  "homepage": "https://andrey000001.github.io/Realestate",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /realestate/"
+    "build": "parcel build src/*.html --public-url /Realestate/"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "browserslist": "^4.22.3",
+    "modern-normalize": "^2.0.0",
     "parcel": "^2.11.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4",
     "swiper": "^11.0.5"
   },
