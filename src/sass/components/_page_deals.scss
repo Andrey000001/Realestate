@@ -29,7 +29,7 @@
     &__content {
         flex: 1 1 auto;
     }
-    
+
     &__title:not(:last-child) {
         margin-bottom: 0.9375rem;
     }
@@ -75,10 +75,10 @@
     transition: all 0.3s ease 0s;
     background-color: transparent;
 
-   &:hover {
-    color: $linkTextColor;
+    &:hover {
+        color: $linkTextColor;
     }
-   &::after {
+    &::after {
         content: "";
         position: absolute;
         bottom: 0px;
@@ -106,8 +106,6 @@
         display: block;
     }
 }
-
-
 
 .item-tabs__items {
     display: grid;
@@ -156,4 +154,3 @@
         object-fit: cover;
     }
 }
-

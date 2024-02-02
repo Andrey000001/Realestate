@@ -1,5 +1,5 @@
-import Swiper from 'swiper';
-import 'swiper/swiper-bundle.min.css';
+import Swiper from "swiper";
+import "swiper/swiper-bundle.min.css";
 
 const swiper = new Swiper(".slider-main-block", {
     // Optional parameters
@@ -12,4 +12,4 @@ const swiper = new Swiper(".slider-main-block", {
     },
 });
 
-export {swiper}
+export { swiper };

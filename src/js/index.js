@@ -1,3 +1,2 @@
-import './swiper/swiper'
-import './tabs/tabs'
-
+import "./swiper/swiper";
+import "./tabs/tabs";
