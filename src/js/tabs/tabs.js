@@ -15,8 +15,15 @@ document.addEventListener("click", (e) => {
                 newActive = index;
             }
         });
+        if(currentActive !== null) {
+            e.target.classList.add("active")
+            if (tabItems[currentActive]) {
+                tabItems[currentActive].classList.remove("active");
+            }
+            
+            if (tabItems[newActive]) {
+                tabItems[newActive].classList.add("active");
+            }
+        }
     }
-    e.target.classList.add("active");
-    tabItems[currentActive].classList.remove("active");
-    tabItems[newActive].classList.add("active");
 });
